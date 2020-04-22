@@ -1,0 +1,153 @@
+
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: #393e46;
+  font-size: 1em;
+  line-height: 1.25;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 5.625rem;
+  margin-bottom: 0;
+  color: black;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #393e46;
+}
+
+hr {
+  border-style: dotted none none none;
+  width: 100px;
+  border-width: 10px;
+  color: #507c5c;
+}
+
+a {
+  color: #f5fbf1;
+  text-decoration: none;
+}
+
+
+
+a:hover {
+  text-decoration: underline;
+}
+
+/*************** Class Selector ******************/
+
+.toptext {
+  position: relative;
+  margin: auto;
+  padding: 75px 0 0 0;
+  width: 1000px;
+}
+
+.top-container {
+  background-color: #defbc2;
+  position: relative;
+  padding-top: 50px;
+}
+
+
+.middle-container {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  background-color: #f5fbf1;
+}
+
+.bottom-container {
+  padding-top: 20px;
+  padding-bottom: 5px;
+  background-color: #639a67;
+}
+
+.frog1 {
+  position: absolute;
+  left: 0;
+  top: 300px;
+  width: 100px;
+}
+
+.frog2 {
+  position: absolute;
+  right: 0;
+  top: 75px;
+  width: 100px;
+}
+
+.skills {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.imagewindow1 {
+  border-radius: 100%;
+  background-color: #defbc2;
+  width: 200px
+}
+
+.imagewindow1:hover {
+  position: relative;
+  top: 5px;
+}
+
+.imagewindow2 {
+  float: left;
+  border-radius: 100%;
+  background-color: #defbc2;
+  width: 150px;
+  margin-right: 30px;
+}
+
+.imagewindow3 {
+  float: right;
+  border-radius: 100%;
+  background-color: #defbc2;
+  width: 150px;
+  margin-left: 30px;
+}
+
+.imagewindow4 {
+  border-radius: 100%;
+  background-color: #defbc2;
+  width: 75px;
+}
+
+.skill-row {
+  margin: 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+.contact {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.imagewindow4:hover {
+	position:relative;
+	top:3px;
+  filter: brightness(150%);
+}
+
+.social {
+  word-spacing: 50px;
+}
+
+/*************** ID Selector ******************/
+
+
+#copyright {
+  font-size: 10px;
+}
+
+#title {
+  font-weight: normal;
+}
